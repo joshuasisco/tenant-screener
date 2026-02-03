@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link, Navigate } from 'react-router-dom';
 import { supabase } from './supabaseClient';
-import Login from './components/Login';
-import Dashboard from './components/Dashboard';
-import Upload from './components/Upload';
+import Login from './Login';
+import Dashboard from './Dashboard';
+import Upload from './Upload';
 
 const navStyle = {
     backgroundColor: '#1e3a5f',
